@@ -97,7 +97,7 @@ $(".list-group").on("blur","textarea", function(){
 // due date was clicked.
 $(".list-group").on("click", "span", function(){
 
- // console.log("span was clicked");
+
 
   // get current text.
   var date= $(this)
@@ -218,7 +218,7 @@ $(".card .list-group").sortable({
   scroll: false,
   tolerance: "pointer",
   helper: "clone",
-  acitvate: function(event, ui) {
+  activate: function(event, ui) {
 
     $(this).addClass("dropover");
     $(".bottom-trash").addClass("bottom-trash-drag");
