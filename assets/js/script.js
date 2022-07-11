@@ -227,7 +227,7 @@ $(".card .list-group").sortable({
   deactivate: function(event, ui){
 
     $(this).removeClass("dropover");
-    $(".bottom-trash").addClass("bottom-trash-drag");
+    $(".bottom-trash").removeClass("bottom-trash-drag");
 
   },
   over: function(event){
